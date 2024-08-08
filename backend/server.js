@@ -2,7 +2,6 @@ import path from "path";
 import express from "express";
 import dotenv from "dotenv";
 import cookieParser from "cookie-parser";
-dotenv.config();
 import ConnectDB from "./config/db.js";
 import productRouter from "./routes/productRoutes.js";
 import userRouter from "./routes/userRoutes.js";
@@ -10,6 +9,8 @@ import orderRouter from "./routes/orderRoutes.js";
 import uploadRouter from "./routes/uploadRoutes.js";
 
 import { notFound, errorHandler } from "./middleware/errorMiddleware.js";
+
+dotenv.config();
 
 const port = process.env.PORT || 5000;
 const app = express();

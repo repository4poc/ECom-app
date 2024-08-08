@@ -17,18 +17,6 @@ import Message from "../components/Message";
 import { addToCart } from "../slices/cartslice";
 
 function ProductScreen() {
-  /*
-  const [product, setProduct] = useState({});
-  const { id: productId } = useParams();
-
-  useEffect(() => {
-    const fetchProduct = async () => {
-      const { data } = await axios.get(`/api/products/${productId}`);
-      setProduct(data);
-    };
-    fetchProduct();
-  }, [productId]);
-  */
   const { id: productId } = useParams();
 
   const dispatch = useDispatch();

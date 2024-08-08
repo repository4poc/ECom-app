@@ -6,7 +6,8 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 
 function App() {
-  return (
+  {
+    /*
     <div
       className="container-fluid d-flex flex-column min-vh-100"
       style={{ paddingLeft: "0px" }}
@@ -22,7 +23,20 @@ function App() {
       <Footer />
       <ToastContainer />
     </div>
-  );
+    */
+    return (
+      <>
+        <Header />
+        <main className="py-3">
+          <Container>
+            <Outlet></Outlet>
+          </Container>
+        </main>
+        <Footer />
+        <ToastContainer />
+      </>
+    );
+  }
 }
 
 export default App;
