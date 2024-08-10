@@ -57,7 +57,7 @@ function ProductScreen() {
                   <h3>{product.name}</h3>
                 </ListGroupItem>
                 <ListGroupItem>{product.description}</ListGroupItem>
-                <ListGroupItem>Price: ${product.price}</ListGroupItem>
+                <ListGroupItem>Price: Rs {product.price}</ListGroupItem>
               </ListGroup>
             </Col>
             <Col md={3}>
@@ -67,7 +67,7 @@ function ProductScreen() {
                     <Row>
                       <Col>Price:</Col>
                       <Col>
-                        <strong>${product.price}</strong>
+                        <strong>Rs {product.price}</strong>
                       </Col>
                     </Row>
                   </ListGroupItem>

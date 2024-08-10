@@ -169,7 +169,7 @@ const OrderScreen = () => {
                       <Link to={`/product/${item.product}`}>{item.name}</Link>
                     </Col>
                     <Col md={4}>
-                      {item.qty} * ${item.price} = ${item.qty * item.price}
+                      {item.qty} * Rs {item.price} = Rs {item.qty * item.price}
                     </Col>
                   </Row>
                 </ListGroupItem>
