@@ -7,7 +7,7 @@ function Product(props) {
       <Link to={`/api/products/${props.product._id}`}>
         <Card.Img
           variant="top"
-          style={{ height: "200px", width: "290px" }}
+          style={{ height: "200px", width: "100%" }}
           src={props.product.image}
         />
       </Link>
