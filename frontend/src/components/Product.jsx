@@ -5,7 +5,11 @@ function Product(props) {
   return (
     <Card className="my-3 p-3 rounded">
       <Link to={`/api/products/${props.product._id}`}>
-        <Card.Img variant="top" src={props.product.image} />
+        <Card.Img
+          variant="top"
+          style={{ height: "200px", width: "300px" }}
+          src={props.product.image}
+        />
       </Link>
       <Card.Body>
         <Link to={`/api/products/${props.product._id}`}>
