@@ -35,7 +35,7 @@ function Header() {
                 alt="punjab bottle agency"
                 style={{ width: "50px", mixBlendMode: "lighten" }}
               />
-              Punjab Bottle Agency
+              Vanshika Traders
             </Navbar.Brand>
           </LinkContainer>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
