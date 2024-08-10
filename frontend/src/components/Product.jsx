@@ -13,7 +13,7 @@ function Product(props) {
             <strong>{props.product.name}</strong>
           </Card.Title>
         </Link>
-        <Card.Text as="h3">${props.product.price}</Card.Text>
+        <Card.Text as="h3">Rs {props.product.price}</Card.Text>
       </Card.Body>
     </Card>
   );
