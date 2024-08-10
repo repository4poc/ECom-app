@@ -25,7 +25,9 @@ function HomeScreen() {
       {isLoading ? (
         <Loader />
       ) : error ? (
-        <Message variant="danger">(error?.data.message || error.error)</Message>
+        <Message variant="danger">
+          (error?.data?.message || error.error)
+        </Message>
       ) : (
         <>
           <h1>Letest Products</h1>
