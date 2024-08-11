@@ -11,7 +11,7 @@ function ContactUsScreen() {
             <strong>Pardeep Gupta</strong>
           </p>
           <p>
-            <strong>Ph:</strong> <WhatsAppButton />
+            <strong></strong> <WhatsAppButton />
           </p>
           <p>Vanshika Traders 3693 katra baghian opp Mahajan hall Amritsar</p>
           <p>
