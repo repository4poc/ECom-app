@@ -19,8 +19,7 @@ function WhatsAppButton() {
           borderRadius: "5px",
         }}
       >
-        <FaWhatsapp />
-        Contact Us
+        <FaWhatsapp /> &nbsp; WhatsApp
       </button>
     </a>
   );

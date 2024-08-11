@@ -11,7 +11,10 @@ function ContactUsScreen() {
             <strong>Pardeep Gupta</strong>
           </p>
           <p>
-            <strong></strong> <WhatsAppButton />
+            <strong>Ph:</strong> +91 98152 26665
+          </p>
+          <p>
+            <WhatsAppButton />
           </p>
           <p>Vanshika Traders 3693 katra baghian opp Mahajan hall Amritsar</p>
           <p>
