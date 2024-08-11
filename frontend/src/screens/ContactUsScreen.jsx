@@ -1,4 +1,5 @@
 import { Col, Row } from "react-bootstrap";
+import WhatsAppButton from "../components/WhatsAppButton";
 
 function ContactUsScreen() {
   return (
@@ -10,7 +11,7 @@ function ContactUsScreen() {
             <strong>Pardeep Gupta</strong>
           </p>
           <p>
-            <strong>Ph:</strong> +91 98152 26665
+            <strong>Ph:</strong> <WhatsAppButton />
           </p>
           <p>Vanshika Traders 3693 katra baghian opp Mahajan hall Amritsar</p>
           <p>
